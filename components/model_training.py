@@ -2,6 +2,7 @@ from model.model import DigitsRecognizerCNN
 import tensorflow as tf
 import numpy as np
 import os
+from kfp.dsl import InputPath, OutputPath
 
 def train_model(train_data_dir: str, test_data_dir: str, model_dir: str, params: dict):
 
