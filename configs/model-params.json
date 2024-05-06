@@ -1,0 +1,8 @@
+{
+    "conv1_filters": 32,
+    "conv2_filters": 64,
+    "dropout_rate": 0.5,
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "epochs": 10
+}
